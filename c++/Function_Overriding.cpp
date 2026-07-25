@@ -11,10 +11,11 @@ class abc{
 class abcd{
     public:
     void operations(int a,int b){
-        cout<<abs(a-b)<<endl;
+        cout<<a+b<<endl;
     }
 };
 int main(){
+    
     abc cs;
     abcd it;
     cs.operations(5,6);
