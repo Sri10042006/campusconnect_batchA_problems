@@ -23,7 +23,7 @@ public class class_method
     public static void main(String[] args) {
         operation op=new operation();
         operations ops=new operations();
-        Scanner sc=new Scanner(System.in);
+        Scanner sc =new Scanner(System.in);
         System.out.println(op.sub(sc.nextInt(),sc.nextInt ()));
         System.out.println(ops.add(sc.nextInt(),sc.nextInt()));
 
